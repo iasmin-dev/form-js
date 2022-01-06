@@ -3,7 +3,7 @@
   text-decoration: none;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: black;
 }
 
 .conteudo {
@@ -31,6 +31,7 @@ form {
   border: none;
   background-color: black;
   width: 100px;
+  color: white;
 }
 
 .error-text {
