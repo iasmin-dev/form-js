@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="conteudo">
+      <div class="conteudo-exigencia">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+          <li>Nenhum campo pode estar vazio</li>
+          <li>Usuário poderá conter letras e/ou números</li>
+          <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+          <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+      </div>
+
+      <div class="conteudo-formulario">
+        <form id="form" action="">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" />
+
+          <label for="sobrenome">Sobrenome</label>
+          <input id="sobrenome" name="sobrenome" tyspe="text" />
+
+          <label for="cpf">CPF</label>
+          <input id="cpf" name="cpf" type="number" />
+
+          <label for="senha">Senha</label>
+          <input id="senha" name="senha" type="password" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
